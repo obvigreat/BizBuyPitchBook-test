@@ -25,6 +25,32 @@
         }
         h1 { color: #2c3e50; }
         h2 { color: #34495e; }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .features {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
     </style>
 </head>
 <body>
@@ -35,10 +61,55 @@
         <section>
             <h2>BizBuySell</h2>
             <p>The largest online marketplace for buying and selling businesses, featuring 45,000+ active listings.</p>
+            <div class="features">
+                <h3>Key Features:</h3>
+                <ul>
+                    <li>Comprehensive business listings</li>
+                    <li>Direct connection with sellers</li>
+                    <li>Business valuation tools</li>
+                    <li>Franchise opportunities</li>
+                </ul>
+            </div>
+            <a href="#" class="cta-button">Start Buying/Selling</a>
         </section>
         <section>
             <h2>PitchBook</h2>
             <p>Premier financial data platform covering private and public markets, with data on 3+ million companies.</p>
+            <div class="features">
+                <h3>Key Features:</h3>
+                <ul>
+                    <li>Private market intelligence</li>
+                    <li>Comprehensive company data</li>
+                    <li>Investment analytics</li>
+                    <li>Market research tools</li>
+                </ul>
+            </div>
+            <a href="#" class="cta-button">Request Demo</a>
+        </section>
+        <section>
+            <h2>Platform Comparison</h2>
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>BizBuySell</th>
+                    <th>PitchBook</th>
+                </tr>
+                <tr>
+                    <td>Primary Use</td>
+                    <td>Business marketplace</td>
+                    <td>Financial data platform</td>
+                </tr>
+                <tr>
+                    <td>Target Audience</td>
+                    <td>Business buyers and sellers</td>
+                    <td>Investors and analysts</td>
+                </tr>
+                <tr>
+                    <td>Data Coverage</td>
+                    <td>45,000+ active listings</td>
+                    <td>3+ million companies</td>
+                </tr>
+            </table>
         </section>
     </main>
 </body>
